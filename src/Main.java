@@ -4,9 +4,18 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/**
+ * Thread main que realiza a execução da thread banheiro e inicializa objetos.
+ *
+ * @author <a href="mailto:lisandra.melo.095@ufrn.edu.br">Lisandra Melo</a> e <a href="mailto:jose.victor.ferreira.125@ufrn.edu.br">José Victor</a>
+ */
 public class Main
 {
-	public static void main(String[] args) {  
+	/**
+	 * Método main para execução do programa
+     * @param args argumentos de linha de comando (não utilizados)
+	 */
+    public static void main(String[] args) {  
         
         int tamanhoFila = 5;
         int capacidade = 10;
